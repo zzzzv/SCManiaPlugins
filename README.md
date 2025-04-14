@@ -1,0 +1,1 @@
+# StreamCompanion plugin&overlay for osu!mania

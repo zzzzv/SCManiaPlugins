@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mania Overlay</title>
+    <link href="./main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/vue@3.3.4/dist/vue.global.prod.js"></script>
+    <script src="https://unpkg.com/echarts@5.6.0/dist/echarts.min.js"></script>
+    <script src="/lib/reconnecting-websocket.js"></script>
+    <script src="/lib/consts.js"></script>
+    <script src="/lib/utils.js"></script>
+  </head>
+
+  <body>
+    <div id="app" style="width:500px;height:200px"  v-cloak>
+      <div class="components-container" v-if="[1, 5].includes(getToken('status'))">
+        <column-hist class="chart-component" style="flex:0.4" :data="getToken('colHist')"></column-hist>
+        <kps-chart class="chart-component" style="flex:0.6" :data="getToken('kps')"></kps-chart>
+      </div>
+      <div class="large-text">XXY SR:{{getToken('xxySr', 2)}}</div>
+    </div>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManiaBeatmap", "ManiaBeatmap\ManiaBeatmap.csproj", "{5DBF6CED-1CE1-45B0-A513-6FD0F1368D0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{9FA3D6BD-1EC1-3BA5-80CB-CE02773A58D5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "mania-overlay", "mania-overlay\", "{35651811-4E8D-EBEC-9A31-18D0316EF879}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52850"
+		Debug.AspNetCompiler.PhysicalPath = "mania-overlay\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52850\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52850"
+		Release.AspNetCompiler.PhysicalPath = "mania-overlay\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52850\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52850"
+		SlnRelativePath = "mania-overlay\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DBF6CED-1CE1-45B0-A513-6FD0F1368D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBF6CED-1CE1-45B0-A513-6FD0F1368D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBF6CED-1CE1-45B0-A513-6FD0F1368D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBF6CED-1CE1-45B0-A513-6FD0F1368D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35651811-4E8D-EBEC-9A31-18D0316EF879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35651811-4E8D-EBEC-9A31-18D0316EF879}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98AF8AEC-932A-4CBE-8952-D303996150C1}
+	EndGlobalSection
+EndGlobal

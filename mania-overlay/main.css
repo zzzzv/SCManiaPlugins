@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    
+}
+* {
+  color: lightgray;
+  font-family: 'Comfortaa';
+}
+.large {
+  font-size: 35px;
+}
+.hide {
+  display: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+#app {
+    height: 100vh;
+}
+
+.components-container {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    gap: 0px;
+    background-color: #0a1929;
+}
+
+.chart-component {
+    height: 100%;
+}
+
+.large-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+}

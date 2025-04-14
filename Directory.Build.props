@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- 指定要忽略的项目 -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);mania-overlay\**\*</DefaultItemExcludes>
+  </PropertyGroup>
+</Project>
