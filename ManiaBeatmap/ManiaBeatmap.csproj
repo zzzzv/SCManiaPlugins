@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\StarRatingRebirth\StarRatingRebirth\StarRatingRebirth.csproj" />
+    <ProjectReference Include="..\submodules\StarRatingRebirth\StarRatingRebirth\StarRatingRebirth.csproj" />
   </ItemGroup>
 
 </Project>

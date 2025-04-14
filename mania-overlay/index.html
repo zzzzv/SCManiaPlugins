@@ -14,12 +14,12 @@
   </head>
 
   <body>
-    <div id="app" style="width:500px;height:200px"  v-cloak>
+    <div id="app" style="width:500px;height:200px" v-cloak>
       <div class="components-container" v-if="[1, 5].includes(getToken('status'))">
-        <column-hist class="chart-component" style="flex:0.4" :data="getToken('colHist')"></column-hist>
-        <kps-chart class="chart-component" style="flex:0.6" :data="getToken('kps')"></kps-chart>
+        <column-hist class="chart-component" style="flex:0.4" :data="getToken('maniaBeatmapColHist')"></column-hist>
+        <kps-chart class="chart-component" style="flex:0.6" :data="getToken('maniaBeatmapKps')"></kps-chart>
       </div>
-      <div class="large-text">XXY SR:{{getToken('xxySr', 2)}}</div>
+      <div class="large-text">XXY SR:{{getToken('maniaBeatmapXxySr', 2)}}</div>
     </div>
     <script src="./main.js" type="module"></script>
   </body>

@@ -1,0 +1,3 @@
+[submodule "submodules/StarRatingRebirth"]
+	path = submodules/StarRatingRebirth
+	url = https://github.com/zzzzv/StarRatingRebirth.git

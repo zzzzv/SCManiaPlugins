@@ -60,8 +60,8 @@ public class ManiaBeatmapPlugin : IPlugin, ITokensSource
 
     private void UpdateTokens()
     {
-        _tokenSetter("colHist", _colHist, whitelist: OsuStatus.Listening);
-        _tokenSetter("kps", _kps, whitelist: OsuStatus.Listening);
-        _tokenSetter("xxySr", _xxySr, format: "{0:0.##}", whitelist: OsuStatus.Listening);
+        _tokenSetter("maniaBeatmapColHist", _colHist, whitelist: OsuStatus.Listening);
+        _tokenSetter("maniaBeatmapKps", _kps, whitelist: OsuStatus.Listening);
+        _tokenSetter("maniaBeatmapXxySr", _xxySr, format: "{0:0.##}", whitelist: OsuStatus.Listening);
     }
 }
