@@ -5,10 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
-    <PublishDir>bin\publish</PublishDir>    
+    <PublishDir>bin\publish</PublishDir>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="6.0.0" PrivateAssets="All" />
     <PackageReference Include="StreamCompanionTypes" Version="9.0.0" PrivateAssets="All" />
   </ItemGroup>
 
