@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决�
 		.gitignore = .gitignore
 		Directory.Build.props = Directory.Build.props
 		README.md = README.md
+		.github\workflows\release.yml = .github\workflows\release.yml
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "mania-overlay", "mania-overlay\", "{35651811-4E8D-EBEC-9A31-18D0316EF879}"
@@ -33,6 +34,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "mania-overlay", "mania-over
 		SlnRelativePath = "mania-overlay\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarRatingRebirth", "submodules\StarRatingRebirth\StarRatingRebirth\StarRatingRebirth.csproj", "{DA19CDDC-B165-E914-DE66-7BA8B632214D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,9 +50,16 @@ Global
 		{5DBF6CED-1CE1-45B0-A513-6FD0F1368D0C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{35651811-4E8D-EBEC-9A31-18D0316EF879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{35651811-4E8D-EBEC-9A31-18D0316EF879}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA19CDDC-B165-E914-DE66-7BA8B632214D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA19CDDC-B165-E914-DE66-7BA8B632214D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA19CDDC-B165-E914-DE66-7BA8B632214D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA19CDDC-B165-E914-DE66-7BA8B632214D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA19CDDC-B165-E914-DE66-7BA8B632214D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98AF8AEC-932A-4CBE-8952-D303996150C1}

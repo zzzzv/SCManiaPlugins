@@ -10,10 +10,12 @@ using StarRatingRebirth;
 
 namespace ManiaBeatmap;
 
-[SCPlugin(Name, "Mania beatmap", "zzzzv", "")]
+[SCPlugin(Name, Description, "zzzzv", "https://github.com/zzzzv/SCManiaPlugins/")]
 public class ManiaBeatmapPlugin : IPlugin, ITokensSource
 {
     public const string Name = "ManiaBeatmap";
+    public const string Version = "0.1.1";
+    public const string Description = $"Mania beatmap plugin v{Version}";
 
     private readonly IContextAwareLogger _logger;
     private Tokens.TokenSetter _tokenSetter;
