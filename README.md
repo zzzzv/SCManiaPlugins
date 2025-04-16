@@ -1,11 +1,12 @@
-# ManiaÄ£Ê½ÓÃµÄStreamCompanion²å¼ş
-[StreamCompanion±¾ÌåµãÕâÀï](https://github.com/Piotrekol/StreamCompanion)
-## Ğ§¹û
-- Ñ¡Çú½çÃæ¼ÆËãsunnyxxy StarRating
-- ¸÷ÁĞ°´¼üÊı£¬Ã×Ãæ·Ö¿ªÍ³¼Æ(×óÍ¼)
-- Ã¿Ãë°´¼üÊı£¬ÃæËã2´Î(ÓÒÍ¼)
-## °²×°
-1. ¸´ÖÆManiaBeatmap.dllµ½StreamCompanionµÄ\Plugins\net8.0Ä¿Â¼
-2. ½âÑ¹mania-overlayµ½StreamCompanionµÄ\Files\Web\overlaysÄ¿Â¼
-## ×¢Òâ
-SR¼ÆËãÃ»ÓĞ»º´æ£¬²»¹ı³ıÁËÖØÏöÕâÖÖÒªµÈ¼¸Ãë£¬»ù±¾¶¼ÔÚ1ÃëÒÔÄÚ
+# Maniaæ¨¡å¼ç”¨çš„StreamCompanionæ’ä»¶
+[StreamCompanionæœ¬ä½“ç‚¹è¿™é‡Œ](https://github.com/Piotrekol/StreamCompanion)
+## æ•ˆæœ
+![QQå›¾ç‰‡20250416132238](https://github.com/user-attachments/assets/24b5e014-0b5f-47ab-b733-f02ee7001521)
+- é€‰æ›²ç•Œé¢è®¡ç®—sunnyxxy StarRating
+- å„åˆ—æŒ‰é”®æ•°ï¼Œç±³é¢åˆ†å¼€ç»Ÿè®¡(å·¦å›¾)
+- æ¯ç§’æŒ‰é”®æ•°ï¼Œé¢ç®—2æ¬¡(å³å›¾)
+## å®‰è£…
+1. å¤åˆ¶ManiaBeatmap.dllåˆ°StreamCompanionçš„\Plugins\net8.0ç›®å½•
+2. è§£å‹mania-overlayåˆ°StreamCompanionçš„\Files\Web\overlaysç›®å½•
+## æ³¨æ„
+SRè®¡ç®—æ²¡æœ‰ç¼“å­˜ï¼Œä¸è¿‡é™¤äº†é‡éœ„è¿™ç§è¦ç­‰å‡ ç§’ï¼ŒåŸºæœ¬éƒ½åœ¨1ç§’ä»¥å†…
